@@ -1,0 +1,141 @@
+.header-head{
+    font-size: 50px;
+    text-align: center;
+
+}
+header{
+    text-align: center;
+}
+.books{
+    margin:20px;
+}
+.book{
+    display:flex;
+    height:220px;
+    border:2px solid black;
+    margin:20px;
+    border-radius: 20px;
+}
+.book > *{
+    margin:20px;
+}
+.book-img{
+    width:200px;
+    height:180px;
+}
+
+.price{
+    font-weight: bolder;
+    font-size:40px;
+    padding-top:60px;
+    padding-left: 20px;
+}
+.content{
+    text-align: center;
+}
+.content-head{
+    font-weight:bolder;
+    font-size: 20px;
+    height:90px;
+}
+.content-body{
+    width:700px;
+}
+
+*{
+font-family:Georgia;
+}
+#cart_butt{
+   margin-left:10%;
+   margin-top:30px;
+   margin-bottom: 30px;
+   height:100px;
+   width:80%;
+   border-radius: 20px;
+   border:2px solid lightseagreen;
+   background-color: white;
+   color:lightseagreen;
+   font-weight: bolder;
+   font-size:20px;
+   transition: background-color 1s ease;
+}
+#cart_butt:hover{
+    background-color: lightseagreen;
+    color:white;
+}
+.cart-butt{
+   margin-left:10%;
+   margin-top:30px;
+   margin-bottom: 30px;
+   height:160px;
+   width:200px;
+   border-radius: 20px;
+   border:2px solid lightcoral;
+   background-color: white;
+   color:lightcoral;
+   font-weight: bolder;
+   font-size:20px;
+   transition: background-color 1s ease;
+}
+.cart-butt:hover{
+    background-color: lightcoral;
+    color:white;
+}
+.checkout{
+    display: flex;
+    width:80%;
+    height:300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.estimate{
+    width:30%;
+    height:200px;
+    border:2px solid black;
+    border-radius:20px;
+    padding:20px;
+    margin-left: 20%;
+    text-align: center;
+    padding-top:150px;
+    font-size:20px;
+
+}
+.form{
+    width:40%;
+    height:200px;
+    border:2px solid black;
+    border-radius:20px;
+    padding:20px;
+    margin-left: 20%;
+    text-align: center;
+    padding-top:150px;
+    font-size:20px;
+}
+form{
+    margin-top:-50px;
+}
+.total{
+    font-size:50px;
+    font-weight: bolder;
+    color:red;
+}
+input{
+    border-radius:5px;
+    border:2px solid lightcoral;
+    padding-left:20px;
+    height:20px;
+    margin-top: 10px;
+}
+#submit_butt{
+    background-color: white;
+    color:lightgreen;
+    border-radius:20px;
+    border:2px solid lightgreen;
+    width:200px;
+    margin-top: 20px;
+    height:40px;
+}
+#submit_butt:hover{
+    background-color: lightgreen;
+    color:white;
+}

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<web-app>
+<servlet>
+<servlet-name>EbookManagementServlet</servlet-name>
+<servlet-class>EbookManagementServlet</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>CartServlet</servlet-name>
+<servlet-class>CartServlet</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>Confirmation</servlet-name>
+<servlet-class>Confirmation</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>EbookManagementServlet</servlet-name>
+<url-pattern>/ebook</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>CartServlet</servlet-name>
+<url-pattern>/cart</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>Confirmation</servlet-name>
+<url-pattern>/Confirmation</url-pattern>
+</servlet-mapping>
+</web-app>
